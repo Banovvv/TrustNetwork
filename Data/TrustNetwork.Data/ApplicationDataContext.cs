@@ -18,13 +18,13 @@ namespace TrustNetwork.Data
 
         public virtual DbSet<Person> People { get; set; }
         public virtual DbSet<Topic> Topics { get; set; }
-        public virtual DbSet<Connection> Connections { get; set; }
+        public virtual DbSet<TrustConnection> Connections { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             new PersonEntityTypeConfiguration().Configure(modelBuilder.Entity<Person>());
             new TopicEntityTypeConfiguration().Configure(modelBuilder.Entity<Topic>());
-            new ConnectionEntityTypeConfiguration().Configure(modelBuilder.Entity<Connection>());
+            new ConnectionEntityTypeConfiguration().Configure(modelBuilder.Entity<TrustConnection>());
         }
     }
 }

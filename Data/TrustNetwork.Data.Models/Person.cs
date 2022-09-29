@@ -5,12 +5,12 @@
         public Person()
         {
             Topics = new HashSet<Topic>();
-            Connections = new HashSet<Connection>();
+            TrustConnections = new HashSet<TrustConnection>();
         }
 
         public int ID { get; set; }
         public string Name { get; set; }
         public ICollection<Topic> Topics { get; set; }
-        public ICollection<Connection> Connections { get; set; }
+        public ICollection<TrustConnection> TrustConnections { get; set; }
     }
 }

@@ -4,9 +4,9 @@ using TrustNetwork.Data.Models;
 
 namespace TrustNetwork.Data.Configurations
 {
-    public class ConnectionEntityTypeConfiguration : IEntityTypeConfiguration<Connection>
+    public class ConnectionEntityTypeConfiguration : IEntityTypeConfiguration<TrustConnection>
     {
-        public void Configure(EntityTypeBuilder<Connection> connection)
+        public void Configure(EntityTypeBuilder<TrustConnection> connection)
         {
 
         }
