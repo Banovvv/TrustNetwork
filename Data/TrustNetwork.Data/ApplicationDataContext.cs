@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Net;
+using TrustNetwork.Data.Configurations;
 using TrustNetwork.Data.Models;
 
 namespace TrustNetwork.Data
@@ -20,7 +22,9 @@ namespace TrustNetwork.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            new PersonEntityTypeConfiguration().Configure(modelBuilder.Entity<Person>());
+            new TopicEntityTypeConfiguration().Configure(modelBuilder.Entity<Topic>());
+            new ConnectionEntityTypeConfiguration().Configure(modelBuilder.Entity<Connection>());
         }
     }
 }
