@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\TrustNetwork.Data.Models\TrustNetwork.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Data\TrustNetwork.Data\TrustNetwork.Data.csproj" />
+  </ItemGroup>
+
 </Project>
