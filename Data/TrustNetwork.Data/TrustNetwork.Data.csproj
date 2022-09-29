@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TrustNetwork.Data.Common\TrustNetwork.Data.Common.csproj" />
     <ProjectReference Include="..\TrustNetwork.Data.Models\TrustNetwork.Data.Models.csproj" />
   </ItemGroup>
 
