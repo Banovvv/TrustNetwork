@@ -5,19 +5,19 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{69521137-772D-44CD-BD72-22682374A2CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustNetwork.Data", "Data\TrustNetwork.Data\TrustNetwork.Data.csproj", "{FF90021D-F097-478E-BE7D-49EBAFB27A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrustNetwork.Data", "Data\TrustNetwork.Data\TrustNetwork.Data.csproj", "{FF90021D-F097-478E-BE7D-49EBAFB27A8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustNetwork.Data.Models", "Data\TrustNetwork.Data.Models\TrustNetwork.Data.Models.csproj", "{DDF61F9E-22E5-4B60-ADEF-5F206FCB66A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrustNetwork.Data.Models", "Data\TrustNetwork.Data.Models\TrustNetwork.Data.Models.csproj", "{DDF61F9E-22E5-4B60-ADEF-5F206FCB66A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustNetwork.Data.Common", "Data\TrustNetwork.Data.Common\TrustNetwork.Data.Common.csproj", "{0629601B-3DC3-403A-9724-61974178F76D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrustNetwork.Data.Common", "Data\TrustNetwork.Data.Common\TrustNetwork.Data.Common.csproj", "{0629601B-3DC3-403A-9724-61974178F76D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{68DBC4BD-E5A5-4884-80F7-D2492F5C65EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustNetwork.Services.Data", "Services\TrustNetwork.Services.Data\TrustNetwork.Services.Data.csproj", "{E066175A-2D28-4A3A-96EF-ECF8747F6D42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrustNetwork.Services.Data", "Services\TrustNetwork.Services.Data\TrustNetwork.Services.Data.csproj", "{E066175A-2D28-4A3A-96EF-ECF8747F6D42}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{0F80B7A6-007D-4560-ABE8-7761BEA753C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustedNetwork.Web", "Web\TrustedNetwork.Web\TrustedNetwork.Web.csproj", "{9D8E09DC-DE69-4B2F-870D-4238B55C5835}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustedNetwork.Web", "Web\TrustedNetwork.Web\TrustedNetwork.Web.csproj", "{4BC8F0BE-EEB9-43E5-B0E3-F629CED203EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{E066175A-2D28-4A3A-96EF-ECF8747F6D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E066175A-2D28-4A3A-96EF-ECF8747F6D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E066175A-2D28-4A3A-96EF-ECF8747F6D42}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D8E09DC-DE69-4B2F-870D-4238B55C5835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D8E09DC-DE69-4B2F-870D-4238B55C5835}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D8E09DC-DE69-4B2F-870D-4238B55C5835}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D8E09DC-DE69-4B2F-870D-4238B55C5835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC8F0BE-EEB9-43E5-B0E3-F629CED203EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC8F0BE-EEB9-43E5-B0E3-F629CED203EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC8F0BE-EEB9-43E5-B0E3-F629CED203EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC8F0BE-EEB9-43E5-B0E3-F629CED203EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,7 +54,7 @@ Global
 		{DDF61F9E-22E5-4B60-ADEF-5F206FCB66A9} = {69521137-772D-44CD-BD72-22682374A2CD}
 		{0629601B-3DC3-403A-9724-61974178F76D} = {69521137-772D-44CD-BD72-22682374A2CD}
 		{E066175A-2D28-4A3A-96EF-ECF8747F6D42} = {68DBC4BD-E5A5-4884-80F7-D2492F5C65EF}
-		{9D8E09DC-DE69-4B2F-870D-4238B55C5835} = {0F80B7A6-007D-4560-ABE8-7761BEA753C7}
+		{4BC8F0BE-EEB9-43E5-B0E3-F629CED203EA} = {0F80B7A6-007D-4560-ABE8-7761BEA753C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32E6C3D5-9022-4541-8681-62CCC0BCC116}
