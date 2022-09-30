@@ -12,6 +12,11 @@ namespace TrustNetwork.Services.Data
             this.repository = repository;
         }
 
+        public void AddTrustedConnection(string name, int trustLevel)
+        {
+            repository.AddTrustedConnection(name, trustLevel);
+        }
+
         public IEnumerable<Person> GetAll() => repository.All();
 
         public Person? GetByID(int id) => repository.GetByID(id);

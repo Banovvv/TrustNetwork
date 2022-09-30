@@ -19,5 +19,10 @@ namespace TrustNetwork.Data.Repositories
             return DbSet
                 .FirstOrDefault(x => x.Name == name);
         }
+
+        public void AddTrustedConnection(string name, int trustLevel)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

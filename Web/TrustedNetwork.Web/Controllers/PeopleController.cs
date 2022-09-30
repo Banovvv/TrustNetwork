@@ -3,7 +3,7 @@
 namespace TrustedNetwork.Web.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/people")]
     public class PeopleController : ControllerBase
     {
         [HttpGet]
