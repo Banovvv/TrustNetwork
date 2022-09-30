@@ -7,6 +7,6 @@ namespace TrustNetwork.Services.Data
         IEnumerable<Person> GetAll();
         Person? GetByID(int id);
         Person? GetByName(string name);
-        void AddTrustedConnection(string name, int trustLevel);
+        void AddTrustedConnection(int id, string name, int trustLevel);
     }
 }

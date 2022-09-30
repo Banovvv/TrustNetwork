@@ -12,9 +12,9 @@ namespace TrustNetwork.Services.Data
             this.repository = repository;
         }
 
-        public void AddTrustedConnection(string name, int trustLevel)
+        public void AddTrustedConnection(int id, string name, int trustLevel)
         {
-            repository.AddTrustedConnection(name, trustLevel);
+            repository.AddTrustedConnection(id, name, trustLevel);
         }
 
         public IEnumerable<Person> GetAll() => repository.All();

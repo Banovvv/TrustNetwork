@@ -20,9 +20,25 @@ namespace TrustNetwork.Data.Repositories
                 .FirstOrDefault(x => x.Name == name);
         }
 
-        public void AddTrustedConnection(string name, int trustLevel)
+        public void AddTrustedConnection(int id, string name, int trustLevel)
         {
-            throw new NotImplementedException();
+            var person = DbSet.FirstOrDefault(x => x.ID == id);
+            var connection = DbSet.FirstOrDefault(x => x.Name == name);
+
+            if (connection == null || person == null)
+            {
+                throw new ArgumentNullException("No such person in the network");
+            }
+
+            var trustConnection = new TrustConnection()
+            {
+                PersonID = connection.ID,
+                TrustLevel = trustLevel
+            };
+
+            Context.TrustConnections.Add(trustConnection);
+
+            person.TrustConnections.Add(trustConnection);
         }
     }
 }
